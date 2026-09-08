@@ -20,6 +20,16 @@ Contributor across the gorm ecosystem:
 
 ## Projects
 
+- **[dsh-proxy](https://github.com/tr1v3r/dsh-proxy)** — runtime-switchable
+  outbound routing for DeepSeek Harness. Hot-reload direct, system,
+  HTTP(S), or SOCKS5 proxy modes without restarting DSH.
+- **[dsh-quote-followup](https://github.com/tr1v3r/dsh-quote-followup)** —
+  quote selected Web conversation text into editable composer chips for
+  focused follow-up questions.
+- **[dsh-tui.yazi](https://github.com/tr1v3r/dsh-tui.yazi)** — launch
+  [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) from
+  [Yazi](https://github.com/sxyazi/yazi) with explicitly selected files in an
+  editable prompt.
 - **[rcast](https://github.com/tr1v3r/rcast)** — a lightweight DLNA/UPnP
   MediaRenderer for macOS, written in Go. Any Mac becomes a cast target:
   playback via IINA, session ownership to prevent conflicting casts, optional
@@ -33,10 +43,6 @@ Contributor across the gorm ecosystem:
   content construction.
 - **[pkg](https://github.com/tr1v3r/pkg)** — shared Go utilities: structured
   logging, fetching, a Notion client, and friends.
-- **[dsh-tui.yazi](https://github.com/tr1v3r/dsh-tui.yazi)** — launch
-  [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) from
-  [Yazi](https://github.com/sxyazi/yazi) with explicitly selected files in an
-  editable prompt.
 
 ## Terminal life
 
