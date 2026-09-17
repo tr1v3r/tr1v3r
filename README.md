@@ -1,60 +1,45 @@
 # True R1v3r
 
-Go engineer · Developer tools · Singapore
+Go engineer based in Singapore. I work on backend systems and developer tools.
 
-I build plumbing for data-heavy systems and tooling for people who live in the
-terminal. These days: type-safe SQL generation, streaming computing, and
-agent-workflow infrastructure.
+I'm interested in type-safe APIs, plugin lifecycles, and tools that make
+everyday development easier.
 
 ## Open source
 
-**Core maintainer of [go-gorm/gen](https://github.com/go-gorm/gen)** — the
-type-safe code generator for [GORM](https://github.com/go-gorm/gorm).
-Top contributor with 750+ commits, about two-thirds of the repository's
-entire history.
+Core maintainer of [go-gorm/gen](https://github.com/go-gorm/gen),
+GORM's type-safe query and code generation toolkit. My work includes
+API design, code generation, compatibility fixes, and ongoing maintenance.
 
-Contributor across the gorm ecosystem:
+I also contribute to the wider GORM ecosystem:
 [gorm](https://github.com/go-gorm/gorm) ·
-[mysql driver](https://github.com/go-gorm/mysql) ·
-[playground](https://github.com/go-gorm/playground)
+[mysql](https://github.com/go-gorm/mysql) ·
+[playground](https://github.com/go-gorm/playground).
 
-## Projects
+## Selected projects
 
-- **[dsh-proxy](https://github.com/tr1v3r/dsh-proxy)** — runtime-switchable
-  outbound routing for DeepSeek Harness. Hot-reload direct, system,
-  HTTP(S), or SOCKS5 proxy modes without restarting DSH.
+- **[cordis-go](https://github.com/tr1v3r/cordis-go)** —
+  A Go plugin framework inspired by Cordis, focused on lifecycle management,
+  reversible effects, and dependency changes under concurrency.
+- **[stream](https://github.com/tr1v3r/stream)** —
+  A streaming computation toolkit for Go, shared across my data projects.
+- **[ivy](https://github.com/tr1v3r/ivy)** —
+  A rule engine for hierarchical content construction.
+- **[rcast](https://github.com/tr1v3r/rcast)** —
+  A DLNA/UPnP receiver for macOS that plays media through IINA.
+
+## Tools I use and extend
+
+I use Neovim, Yazi, and coding agents in my daily workflow.
+Some small projects grew out of things I wanted to work differently:
+
 - **[dsh-quote-followup](https://github.com/tr1v3r/dsh-quote-followup)** —
-  quote selected Web conversation text into editable composer chips for
-  focused follow-up questions.
-- **[dsh-tui.yazi](https://github.com/tr1v3r/dsh-tui.yazi)** — launch
-  [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) from
-  [Yazi](https://github.com/sxyazi/yazi) with explicitly selected files in an
-  editable prompt.
-- **[rcast](https://github.com/tr1v3r/rcast)** — a lightweight DLNA/UPnP
-  MediaRenderer for macOS, written in Go. Any Mac becomes a cast target:
-  playback via IINA, session ownership to prevent conflicting casts, optional
-  linkage to system volume.
-- **[agent-relay](https://github.com/tr1v3r/agent-relay)** — platform-neutral
-  Agent Skill and protocol for one-shot task-to-task handoffs between coding
-  agents.
-- **[stream](https://github.com/tr1v3r/stream)** — streaming computing SDK
-  for Go; the shared foundation under my data projects.
-- **[ivy](https://github.com/tr1v3r/ivy)** — a rule engine for hierarchical
-  content construction.
-- **[pkg](https://github.com/tr1v3r/pkg)** — shared Go utilities: structured
-  logging, fetching, a Notion client, and friends.
+  Quote conversation text into native composer chips for follow-up questions.
+- **[dsh-proxy](https://github.com/tr1v3r/dsh-proxy)** —
+  Configurable outbound proxy support for DeepSeek Harness.
+- **[dsh-tui.yazi](https://github.com/tr1v3r/dsh-tui.yazi)** —
+  Start dsh-TUI from Yazi with selected files.
+- **[agent-relay](https://github.com/tr1v3r/agent-relay)** —
+  A skill and protocol for handing off tasks between coding agents.
 
-## Terminal life
-
-Daily driver is a heavily customized terminal — Neovim, Yazi, dwm/st
-heritage — plus plugins and patches for
-[dsh](https://github.com/deepseek-ai/deepseek-harness) (DeepSeek Harness)
-and its TUI. Notes live in a Git-versioned Obsidian vault organized with
-PARA.
-
-## 📊
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=tr1v3r&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tr1v3r&layout=compact&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
+My [Neovim configuration](https://github.com/tr1v3r/nvim) is also public.
